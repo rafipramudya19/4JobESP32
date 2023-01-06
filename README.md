@@ -4,6 +4,8 @@
 
 ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI.
 
+### LANGKAH-LANGKAH
+
 1. ESP32 --> Cayenne (MQTT) --> Sensor + LED (on/off) --> Button di website monitoring
 ![1](https://user-images.githubusercontent.com/121251478/211001825-f345f3a6-1c7e-4b56-a0e8-6fce964375ad.png)
 
