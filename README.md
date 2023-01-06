@@ -1,5 +1,9 @@
 # Jobsheet-4
 
+### 4JobESP32
+
+ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI.
+
 1. ESP32 --> Cayenne (MQTT) --> Sensor + LED (on/off) --> Button di website monitoring
 ![1](https://user-images.githubusercontent.com/121251478/211001825-f345f3a6-1c7e-4b56-a0e8-6fce964375ad.png)
 
@@ -9,6 +13,7 @@ https://user-images.githubusercontent.com/121251478/211001846-496758ac-3778-4b0f
 Percobaan dengan menggunakan ESP32, Sensor + LED (on/off) dan menggunakan button pada  website Canneye. Dengan program diatas, dihasilkan output berupa lampu LED menyala/mati sesuai dengan perintah/input berupa button pada website. Lalu, pada serial monitor akan muncul tampilan suhu yang akan dikirimkan ke website melalui virtual channel.
 
 2. ESP32 --> Adafruit.io(MQTT) --> Sensor + LED (on/off) --> Suara --> Google Assistant + IFTTF
+
 ![2](https://user-images.githubusercontent.com/121251478/211001889-ab3d3f95-5c60-4770-a61e-a217e87d7678.png)
 
 ![3I](https://user-images.githubusercontent.com/121251478/211001920-e722ff11-d2f5-4d78-86bd-91b00f9eeb68.jpg)
@@ -20,9 +25,7 @@ Percobaan dengan menggunakan ESP32, Sensor + LED (on/off) dan menggunakan button
 
 ![5](https://user-images.githubusercontent.com/121251478/211001981-e98928d7-8d09-49aa-b5b5-d27bb6b8516d.png)
 
-
 ![6](https://user-images.githubusercontent.com/121251478/211001991-0a7ccf08-db7c-4204-aae5-c109d6fec862.png)
-
 
 Percobaan dengan menggunakan ESP32, sensor DHT 11 dan website Thingspeak. Dengan program tersebut, dihasilkan output berupa chart suhu dan kelembapan yang dihasilkan oleh sensor DHT 11 pada Thingspeak. Thingspeak dapat menghasilkan chart berdasarkan output sensor tersebut.
 
